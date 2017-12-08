@@ -1,0 +1,38 @@
+.list-container {
+    background-color: #000;
+    color: white;
+    margin-top: 1em;
+}
+
+.to-do-item{
+    color:red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    border: 1px solid white;
+    align-content: center;
+    margin: 5px;
+    padding: 0 5%;
+}
+
+.check-box {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 20px;
+    margin-top: auto;
+}
+
+.add-label {
+    height: 60px;
+    width: 70%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.label-input-text{
+    font-size: 30px;
+    width: 100%;
+}
+
